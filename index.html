@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Moral Bermúdez</title>
+    <link rel="icon" href="images/portrait-mobile.jpeg">
+    <script src="php/mail-handler.php"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Montserrat:bold" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- INTRO -->
+    <div class="jumbotron">
+        <div class="row  h-100">
+            <div class="col-sm-12 container-intro-title ">
+                <div class="name-border name-round col-sm-6">
+                    <p class="name margin">Sergio Moral Bermúdez</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- STUDIES -->
+    <div class="container-fluid">
+        <div class="page-header">
+            <h1 id="title">Estudios</h1>
+        </div>
+        <!-- UNIVERSITY -->
+        <div class="container-fluid studies-container">
+            <div class="row ">
+                <div class="col-sm-4 studies-title">
+                    <p class="study-title">Grado Ingeniería de software</p>
+                    <p class="subtitle ">Universidad Politécnica de Madrid</p>
+                    <p class="subtitle ">2011- 2017</p>
+                </div>
+                <div class="col-sm-8 studies-description">
+                    <p>Capacidad de utilizar un enfoque sistemático, disciplinado y cuantificable para el desarrollo, operación y mantenimiento del software, de establecer y utilizar principios sólidos de ingeniería para obtener software fiable que funcione
+                        eficientemente en máquinas reales, así como de estimar los costes de los desarrollos.<br/><br/>Todo ello supone un conocimiento profundo de la programación de ordenadores, la implantación y planificación de sistemas informáticos
+                        así como de las fases del ciclo de vida del software, desde una perspectiva práctica y adaptada a las realidades sociales de nuestro país.</p>
+                </div>
+            </div>
+        </div>
+        <!-- COURSES -->
+
+        <!-- Android Course -->
+        <div class="container-fluid studies-container">
+            <div class="row ">
+                <div class="col-sm-4 studies-title">
+                    <p>Desarrollo Aplicaciones Android</p>
+                    <p class="subtitle ">Universidad Politécnica de Madrid - Samsung Tech Institute</p>
+                    <p class="subtitle ">200 horas - 2014</p>
+                </div>
+                <div class="col-sm-8 studies-description">
+                    <p>Curso enfocado para estudiantes interesados en el desarrollo de aplicaciones para dispositivos Android. En este curso se abordan diferentes temas relacionados con el desarrollo de un aplicaión como:<br/><br/>• Identificación de idea
+                        para el proyecto<br/>• Creación de un mock up<br/>• Análisis de UX/UI<br/>• Desarrollo (JAVA)<br/>• Publicación de la aplicación en Play store
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Web Course -->
+        <div class="container-fluid studies-container">
+            <div class="row ">
+                <div class="col-sm-4 studies-title ">
+                    <p>Desarrollo Front-End con HTML5 y CSS3</p>
+                    <p class="subtitle ">Universidad Politécnica de Madrid - Samsung Tech Institute</p>
+                    <p class="subtitle ">80 horas - 2016</p>
+                </div>
+                <div class="col-sm-8 studies-description ">
+                    <p>Curso dirigido a desarrolladores/as y diseñadores/as web tanto nuevos como experimentados y ampliar sus habilidades para incluir los próximos estándares web. A través de laboratorios prácticos y ejercicios, se aprendieron los fundamentos
+                        de la creación de páginas web con las normas/estándares actuales. El curso se centra en el lenguaje de maquetación de contenidos HTML5 y en las hojas de estilo en cascada proporcionadas por CSS3. Adicionalmente se introducen conceptos
+                        básicos de JavaScript y el uso de la biblioteca Bootstrap
+
+                        <span id="dots">...</span><span id="more">. Los/as alumnos/as adquirirán, entre otras, destrezas que le permitirán:<br/><br/>• Entender la arquitectura cliente-servidor
+                        y las características de los servidores web, considerando las peculiaridades de los clientes asociados.
+                        <br/>• Conocer el lenguaje HTML para el desarrollo de páginas Web (en todas sus versiones), incluyendo textos, imágenes y otros contenidos multimedia.<br/>• Dotar a los documentos HTML de las capacidades proporcionadas por el CSS,
+                        adaptándose a criterios de usabilidad y accesibilidad. <br/>• Entender cómo integrar el uso del lenguaje JavaScript
+                    </span>
+                    </p>
+                    <!-- <button onclick="readMore()" style=" background-color: #00C2A8; border-color: #00C2A8;" class="btn btn-primary" id="readMoreButton">Read more</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT ME -->
+    <div class="container-fluid contact-me-container">
+        <div style="padding: 0 20px;" class="row">
+            <div class="col-sm-4 center-absolute">
+                <img class="mx-auto d-block" id="portrait-img" src="images/portrait.jpeg" alt="portrailt">
+            </div>
+            <div class="col-sm-8 center-absolute" style="margin: 0px;">
+                <h1 id="contact-title">Contact me!</h1>
+                <!-- 
+                <form id="mail-form" action="mail-handler.php" method="POST">
+                    <div class="form-group row">
+                        <div class="col-sm-10  center-absolute">
+                            <input name="subject" type="text" class="form-control" id="inputSubject" placeholder="Asunto" required>
+                        </div>
+                        <div class="col-sm-10  center-absolute">
+                            <input name="email" type="text" class="form-control" id="inputSubject" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10  center-absolute">
+                            <textarea name="body" class="form-control" id="inputMessage" placeholder="Mensaje" rows="4" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10  center-absolute">
+                            <button id="btn-send" type="submit" class="btn btn-primary btn-block">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+                -->
+                <div class="row" style="padding-top: 50px;">
+                    <div class="column col-sm-4 center-absolute" style="text-align: center;">
+                        <i class="fa fa-map-marker center-absolute" style="font-size:48px;color:white;padding-bottom: 20px;"></i>
+                        <p>Madrid, Spain</p>
+                    </div>
+                    <div class="column col-sm-4 center-absolute" style="text-align: center;">
+                        <i class="fa fa-envelope" style="font-size:48px;color:white;padding-bottom: 20px;"></i>
+                        <p>smoralber@gmail.com</p>
+                    </div>
+                    <div class="column col-sm-4 center-absolute" style="text-align: center;">
+                        <i class="fa fa-phone" style="font-size:48px;color:white;padding-bottom: 20px;"></i>
+                        <p>656 987 824</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="container-fluid hide-mobile">
+        <div class="page-header">
+            <h1 id="title">Experiencia</h1>
+        </div>
+        <ul class="timeline">
+            <li class="timeline-inverted">
+                <div class="timeline-badge current"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Desarrollador Android</h4>
+                        <h5 style="font-size: 16px;">Openbank</h5>
+                        <p><small class="text-muted"> Noviembre 2019 - Actualidad</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Desarrollo de la aplicación de Openbank para clientes</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge past"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Desarrollador Android</h4>
+                        <h5 style="font-size: 16px;">iphonedroid</h5>
+                        <p><small class="text-muted"> Noviembre 2018 - Noviembre 2019</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Desarrollo de aplicaciones Android en Kotlin, basándose en una arquitectura MVP y Clean Architecture.<br/><br/>Uso librerías como:<br/><span style="padding-left:1em"> •  RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, entre otras.</span><br/>
+                            <span style="padding-left:1em"> •  Implementación de librería de Analíticas de Adobe.
+                                </span><br/><span style="padding-left:1em"> •  Metodología de trabajo agile basado en kanban y SCRUM.</span><br/><span style="padding-left:1em"> •  Uso de herramientas de gestión como Jira y de documentación como Confluence.</span><br/>
+                            <span style="padding-left:1em"> • Herramientas de control versiones como HockeyApp y Fastlane.</span>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge past"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Desarrollador de Software</h4>
+                        <h5 style="font-size: 16px;">Accenture</h5>
+                        <p><small class="text-muted"> Junio 2018 - Noviembre 2018</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Desarrollo de aplicación web para gestión interna del cliente utilizando tecnologías como:<br/><span style="padding-left:1em"> •  Angular 6, Bootstrap 4 y Typescript.</span><br/><span style="padding-left:1em"> • Metodología de trabajo basada en SCRUM.</span></p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge past"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Desarrollador Android</h4>
+                        <h5 style="font-size: 16px;">talentoMOBILE</h5>
+                        <p><small class="text-muted"> Marzo 2018 - Junio 2018</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Desarrollador de aplicaciones nativas Android para empresas multinacionales del sector bancario y aseguradoras siguiendo el patrón arquitectónico MVP y DataBinding.<br/><br/>Uso de librerías nativas de Android como:<br/>
+                            <span style="padding-left:1em"> • ConstraintLayout, RecyclerView y Volley, entre otras.</span><br/> Uso de librerías de terceros como:
+                            <br/><span style="padding-left:1em"> • Butterknife, Retrofit 2, Glide, Picasso, okhttp, Dagger 2.</span><br/>Conexión con APIS como:<br/><span style="padding-left:1em"> • Google Maps API</span></p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge past"></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Desarrollador Android</h4>
+                        <h5 style="font-size: 16px;">Babel SI</h5>
+                        <p><small class="text-muted"> Marzo 2017 - Marzo 2018</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Desarrollador aplicaciones Android siguiendo los principios del patrón arquitectónico Clean Architecture.<br/><br/>Uso de librerías nativas de Android como: <br/><span style="padding-left:1em"> • ConstraintLayout y RecyclerView</span><br/>Librerías
+                            de terceros como pueden ser:<br/><span style="padding-left:1em"> • Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife y okhttp</span><br/>Conexión con APIS como:<br/><span style="padding-left:1em"> • Google Maps API y Firebase.</span></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- EXPERIENCE MOBILE -->
+    <div class="container-fluid">
+        <div class="container-fluid studies-container show-mobile">
+            <div class="row ">
+                <div class="col-sm-4 studies-title">
+                    <p class="study-title">Desarrollador Android</p>
+                    <p class="subtitle ">Openbank</p>
+                    <p class="subtitle "> Noviembre 2019 - Actualidad</p>
+                </div>
+                <div class="col-sm-8 studies-description">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid studies-container show-mobile">
+            <div class="row ">
+                <div class="col-sm-4 studies-title">
+                    <p class="study-title">Desarrollador Android</p>
+                    <p class="subtitle ">iphonedroid</p>
+                    <p class="subtitle "> Noviembre 2018 - Noviembre 2019</p>
+                </div>
+                <div class="col-sm-8 studies-description">
+                    <p>Desarrollo de aplicaciones Android en Kotlin, basándose en una arquitectura MVP y Clean Architecture.<br/><br/>Uso librerías como:<br/><span style="padding-left:1em"> •  RxJava, RxKotlin, Dagger2, Retrofit, okhttp, Gson, Glide, entre otras.</span><br/>
+                        <span style="padding-left:1em"> •  Implementación de librería de Analíticas de Adobe.
+                                </span><br/><span style="padding-left:1em"> •  Metodología de trabajo agile basado en kanban y SCRUM.</span><br/><span style="padding-left:1em"> •  Uso de herramientas de gestión como Jira y de documentación como Confluence.</span><br/>
+                        <span style="padding-left:1em"> • Herramientas de control versiones como HockeyApp y Fastlane.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid studies-container show-mobile">
+            <div class="row ">
+                <div class="col-sm-4 studies-title">
+                    <p class="study-title">Desarrollador de Software</p>
+                    <p class="subtitle ">Accenture</p>
+                    <p class="subtitle "> Junio 2018 - Noviembre 2018</p>
+                </div>
+                <div class="col-sm-8 studies-description">
+                    <p>Desarrollo de aplicación web para gestión interna del cliente utilizando tecnologías como:<br/><span style="padding-left:1em"> •  Angular 6, Bootstrap 4 y Typescript.</span><br/><span style="padding-left:1em"> • Metodología de trabajo basada en SCRUM.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid studies-container show-mobile">
+            <div class="row ">
+                <div class="col-sm-4 studies-title">
+                    <p class="study-title">Desarrollador Android</p>
+                    <p class="subtitle ">Babel SI</p>
+                    <p class="subtitle "> Marzo 2017 - Marzo 2018</p>
+                </div>
+                <div class="col-sm-8 studies-description">
+                    <p>Desarrollador aplicaciones Android siguiendo los principios del patrón arquitectónico Clean Architecture.<br/><br/>Uso de librerías nativas de Android como: <br/><span style="padding-left:1em"> • ConstraintLayout y RecyclerView</span><br/>Librerías
+                        de terceros como pueden ser:<br/><span style="padding-left:1em"> • Dagger2, Retrofit, Picasso, Glide, Gson, Butterknife y okhttp</span><br/>Conexión con APIS como:<br/><span style="padding-left:1em"> • Google Maps API y Firebase.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="text-center">
+            <a href="https://twitter.com/smoralber" target="_blank"><img class="social-media" src="images/twitter-icon-white.jpg" /></a>
+            <a href="https://www.linkedin.com/in/sergiomoralbermudez/" target="_blank"><img class="social-media " src="images/linkedin-white-icon.jpg" /></a>
+            <a href="https://github.com/smoralb" target="_blank"><img class="social-media " src="images/github-white-icon.jpg" /></a>
+            <p class="footer-text ">Made with ❤️ from Madrid, Spain.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
